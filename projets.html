@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Projets informatiques de Samuella.">
+  <meta name="theme-color" content="#8959bd">
+  <title>Projets | Portfolio de Samuella</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+<div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+
+<header class="site-header">
+  <nav class="navbar container" aria-label="Navigation principale">
+    <a href="index.html" class="logo">Samuella<span>.</span></a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="formation.html">Formation et Certificats</a></li>
+      <li><a href="experiences.html">Expériences</a></li>
+      <li><a href="projets.html" class="active">Projets</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" type="button" aria-label="Activer le mode sombre" title="Mode clair / sombre">☾</button>
+  </nav>
+</header>
+
+<main>
+
+<section class="page-hero container reveal"><p class="eyebrow">APPRENDRE EN FAISANT</p><h1>Mes <span class="gradient-text">projets</span></h1><p>Quelques travaux pratiques et réalisations qui illustrent mon parcours informatique</p></section>
+<section class="container section-block reveal">
+  <div class="filter-bar" role="group" aria-label="Filtrer les projets">
+    <button class="filter-btn active" data-filter="all">Tous</button>
+    <button class="filter-btn" data-filter="reseau">Réseaux</button>
+    <button class="filter-btn" data-filter="supervision">Supervision</button>
+    <button class="filter-btn" data-filter="developpement">Développement</button>
+  </div>
+  <div class="project-grid">
+    <article class="project-card" data-category="supervision reseau"><div class="project-art art-one"><span>◉</span><small>NETWORK MONITORING</small></div><div class="project-info"><p class="eyebrow">SUPERVISION • RÉSEAUX</p><h2>Supervision réseau avec LibreNMS</h2><p>Mise en place d'un environnement de supervision avec un serveur Linux et des machines clientes, suivi via SNMP et vérification de la disponibilité des équipements.</p><div class="skill-tags"><span>LibreNMS</span><span>Linux</span><span>SNMP</span><span>VirtualBox</span></div></div></article>
+    <article class="project-card" data-category="reseau"><div class="project-art art-two"><span>⌁</span><small>CAPTIVE PORTAL</small></div><div class="project-info"><p class="eyebrow">RÉSEAUX • ADMINISTRATION</p><h2>Hotspot et portail captif MikroTik</h2><p>Travail pratique autour de la configuration d'un hotspot, de profils utilisateurs et de l'accès Wi-Fi avec portail captif.</p><div class="skill-tags"><span>MikroTik</span><span>Hotspot</span><span>Winbox</span></div></div></article>
+    <article class="project-card" data-category="developpement"><div class="project-art art-three"><span>⌘</span><small>WEB APPLICATION</small></div><div class="project-info"><p class="eyebrow">DÉVELOPPEMENT WEB</p><h2>Application de gestion des stagiaires</h2><p>Projet réalisé dans le contexte d'un stage : interface web et gestion de données avec PHP, HTML, CSS et MySQL.</p><div class="skill-tags"><span>PHP</span><span>HTML</span><span>CSS</span><span>MySQL</span></div></div></article>
+    <a class="project-card project-card-link" data-category="developpement" href="https://alerte-quartier-ci.vercel.app/" target="_blank" rel="noopener noreferrer"><div class="project-art alert-project-art"><svg class="alert-shield" viewBox="0 0 48 48" aria-hidden="true"><path d="M24 4 42 11v12c0 11-7 18-18 22C13 41 6 34 6 23V11L24 4Z" fill="none" stroke="currentColor" stroke-width="5" stroke-linejoin="round"/><path d="M24 5v40" fill="none" stroke="currentColor" stroke-width="4"/></svg><span class="alert-brand">Alerte Quartier CI</span></div><div class="project-info"><p class="eyebrow">PROJET PERSONNEL</p><h2>Alerte Quartier CI</h2><p>Concept de plateforme de signalement citoyen pour partager des alertes locales : coupures d'eau ou d'électricité, routes bloquées et inondations.</p><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>LocalStorage</span></div><span class="project-link">Découvrir le projet <span aria-hidden="true">↗</span></span></div></a>
+    <a class="project-card project-card-link" data-category="developpement" href="https://github.com/samuella05/Bibliotheque.git" target="_blank" rel="noopener noreferrer"><div class="project-art library-brand-art"><div class="library-brand">Bibliothèque <strong>SJBEK</strong></div></div><div class="project-info"><p class="eyebrow">DÉVELOPPEMENT WEB</p><h2>Site web de gestion d’une bibliothèque</h2><p>Développement d’un site comprenant une interface frontend et un backend pour la gestion d’une bibliothèque.</p><div class="skill-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>PHP</span><span>MySQL</span></div><span class="project-link">Voir le code sur GitHub <span aria-hidden="true">↗</span></span></div></a>
+  </div>
+  <!-- <p class="small-note">Les descriptions sont synthétiques. Ajoute des captures d'écran, liens GitHub et détails techniques lorsque tu disposes de versions présentables.</p> -->
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Samuella. Tous droits réservés.</p>
+    <a href="#top" class="back-top">Retour en haut ↑</a>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+
+</body>
+</html>

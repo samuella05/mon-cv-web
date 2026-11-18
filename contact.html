@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contacter Samuella.">
+  <meta name="theme-color" content="#8959bd">
+  <title>Contact | Portfolio de Samuella</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body id="top">
+<div class="reading-progress" aria-hidden="true"><span id="reading-progress-bar"></span></div>
+
+<header class="site-header">
+  <nav class="navbar container" aria-label="Navigation principale">
+    <a href="index.html" class="logo">Samuella<span>.</span></a>
+    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+    <ul class="nav-links">
+      <li><a href="index.html">Accueil</a></li>
+      <li><a href="apropos.html">À propos</a></li>
+      <li><a href="formation.html">Formation et Certificats</a></li>
+      <li><a href="experiences.html">Expériences</a></li>
+      <li><a href="projets.html">Projets</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" type="button" aria-label="Activer le mode sombre" title="Mode clair / sombre">☾</button>
+  </nav>
+</header>
+
+<main>
+
+<section class="page-hero container reveal"><p class="eyebrow">ÉCHANGEONS ✦</p><h1>Me <span class="gradient-text">contacter</span></h1><p>Une opportunité de stage, une collaboration ou une question ? Écrivez-moi !</p></section>
+<section class="container contact-layout reveal">
+  <div class="contact-card">
+    <p class="eyebrow">RESTONS EN CONTACT</p><h2>Mes contacts</h2>
+    <p class="muted">Vous pouvez me joindre par mail ou utiliser le formulaire</p>
+    <div class="contact-detail"><span class="contact-icon">✉</span><div><small>E-MAIL</small><a href="mailto:tonadresse@email.com">adjemarie23@gmail.com</a></div></div>
+    <div class="contact-detail"><span class="contact-icon">☎</span><div><small>TÉLÉPHONES</small><div class="phone-links"><a href="tel:+2250713867611">07 13 86 76 11</a><span aria-hidden="true">/</span><a href="tel:+2250153515803">01 53 51 58 03</a></div></div></div>
+    <div class="contact-detail"><span class="contact-icon">WA</span><div><small>WHATSAPP</small><a href="https://wa.me/2250713867611" target="_blank" rel="noopener noreferrer">M’écrire sur WhatsApp</a></div></div>
+    <div class="contact-detail"><span class="contact-icon">in</span><div><small>LINKEDIN</small><a href="https://www.linkedin.com/in/adjemariesamuella" target="_blank" rel="noopener noreferrer">Voir mon profil LinkedIn ↗</a></div></div>
+    <div class="contact-detail"><span class="contact-icon">⌖</span><div><small>LOCALISATION</small><p>Côte d'Ivoire, Abidjan</p></div></div>
+  </div>
+  <form class="contact-form" id="contact-form">
+    <label for="name">Votre nom</label><input id="name" name="name" type="text" placeholder="Ex. Awa Kouassi" required>
+    <label for="email">Votre adresse e-mail</label><input id="email" name="email" type="email" placeholder="exemple@gmail.com" required>
+    <label for="subject">Objet</label><input id="subject" name="subject" type="text" placeholder="Objet du message" required>
+    <label for="message">Votre message</label><textarea id="message" name="message" rows="5" placeholder="Écrivez votre message ici..." required></textarea>
+    <button class="btn btn-primary" type="submit">Envoyer le message ↗</button>
+    <p class="form-note" id="form-note" aria-live="polite"></p>
+  </form>
+</section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <p>© <span id="year"></span> Samuella. Tous droits réservés.</p>
+    <a href="#top" class="back-top">Retour en haut ↑</a>
+  </div>
+</footer>
+<script src="js/script.js"></script>
+
+</body>
+</html>
